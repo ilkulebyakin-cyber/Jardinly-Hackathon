@@ -1,0 +1,20 @@
+{
+  "name": "jardinly-build-week-extension",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Public, extractable contracts for the Jardinly OpenAI Build Week extension.",
+  "scripts": {
+    "test": "node --experimental-strip-types --test test/**/*.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.9.0"
+  },
+  "engines": {
+    "node": ">=22.18"
+  },
+  "packageManager": "pnpm@10.33.1"
+}
+
